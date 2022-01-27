@@ -24,4 +24,11 @@ $num=substr_count($str,'-');
 7. 异常处理函数
 框架中一般不用
 
+8. pcntl_fork
+用域cli模式，不能用在web请求中
+
+9. ignore_user_abort
+
+10. fastcgi_finish_reques
+
 

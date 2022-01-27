@@ -156,3 +156,21 @@ php扩展安装4：
 
 php扩展安装5：
 yum安装，会自动配置php.ini
+
+####pcntl扩展：
+wget https://www.php.net/distributions/php-7.0.29.tar.gz
+
+cd /usr/local/src/
+tar -xzvf php-7.0.29.tar.gz
+cd php-7.0.29/ext/pcntl
+
+/app/program/php-7.0.29/bin/phpize
+./configure --with-php-config=/app/program/php-7.0.29/bin/php-config
+make && make install
+
+查看 /app/lib64/php/modules 目录已经有pcntl.so
+
+php.ini中添加：extension=pcntl.so
+
+重启php-fpm
+

@@ -15,4 +15,8 @@ file->Settings->GOROOT->sdk添加 C:\Program Files\Go
 解决办法：
 win10：打开Windows Defender，打开windows安全中心，病毒和威胁防护-“病毒和威胁防护”设置-管理设置，在排除项中，点击添加或删除排除项
 
+6. 设置unix换行符
+File”->“setting”->“editor”->“Code Completion”
+
+
 
